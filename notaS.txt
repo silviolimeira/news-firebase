@@ -18,7 +18,9 @@ $ npm install --save firebase
 # Alter home page for display the list of the bulletin board: src/app/home/home.page.ts and .html
 
 # Add page for Create Bulletin Board Info
-$ ionic g page Create
+$ ionic g page create
 
+# Add paga for show bulletin board info detail
+$ ionic g page detail
 
 

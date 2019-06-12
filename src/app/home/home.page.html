@@ -13,7 +13,7 @@
 
 <ion-content>
   <ion-list>
-    <ion-item-sliding *ngFor="let info of infos">
+    <ion-item-sliding *ngFor="let info of infos"></ion-item-sliding>
       <ion-item detail lines="full" routerLink="/detail/{{ info.key }}">
         <ion-icon name="desktop" slot="start"></ion-icon>
         {{ info.info_title }}
