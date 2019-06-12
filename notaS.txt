@@ -30,3 +30,6 @@ $ ionic g page edit
 
 # Show time
 $ ionic serve -l -c --browser chrome
+
+# Fix bug component alert
+https://ionicframework.com/docs/api/alert
