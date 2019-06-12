@@ -1,0 +1,24 @@
+# Crate the project
+$ ionic start project-name blank --type=angular
+# sanitizing the app, and configure @ionic/lab
+$ ionic serve -c -l --browser chrome
+
+# Install ionic and cordova
+# npm i -D -E ionic@latest
+# npm i -g cordova
+
+# Create a new project in console.firebase.google.com
+# Create the bd, start in test mode
+
+# Install firebase library
+$ npm install --save firebase
+
+# Register the firebase in src/app/app.components.test
+
+# Alter home page for display the list of the bulletin board: src/app/home/home.page.ts and .html
+
+# Add page for Create Bulletin Board Info
+$ ionic g page Create
+
+
+
