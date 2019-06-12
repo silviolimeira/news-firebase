@@ -12,11 +12,11 @@ import * as firebase from "Firebase";
 export class HomePage {
   infos = [];
   ref = firebase.database().ref("infos/");
-  alertController: any;
 
   constructor(
     public router: Router,
-    public loadingController: LoadingController
+    public loadingController: LoadingController,
+    public alertController: AlertController
   ) {
     this.ref.on("value", resp => {
       this.infos = [];
@@ -57,6 +57,7 @@ export class HomePage {
         }
       ]
     });
+    await alert.present();
   }
 }
 
