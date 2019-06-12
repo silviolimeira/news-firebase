@@ -1,3 +1,5 @@
+https://www.djamware.com/post/5b74e54f80aca74669894413/ionic-4-and-angular-6-tutorial-firebase-realtime-crud-mobile-app
+
 # Crate the project
 $ ionic start project-name blank --type=angular
 # sanitizing the app, and configure @ionic/lab
@@ -23,4 +25,8 @@ $ ionic g page create
 # Add paga for show bulletin board info detail
 $ ionic g page detail
 
+# Add page for edit Bulletin Board Info
+$ ionic g page edit
 
+# Show time
+$ ionic serve -l -c --browser chrome

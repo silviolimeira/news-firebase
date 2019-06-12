@@ -20,6 +20,7 @@ export class HomePage {
   ) {
     this.ref.on("value", resp => {
       this.infos = [];
+      console.log(resp);
       this.infos = snapshotToArray(resp);
     });
   }
